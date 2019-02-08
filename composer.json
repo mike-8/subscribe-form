@@ -15,7 +15,7 @@
   "require": {
 
 		"composer/installers": "~1.0",
-        "elastic-email/web-api-client": "*",
+        
 
 
 
