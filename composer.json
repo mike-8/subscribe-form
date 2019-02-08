@@ -1,0 +1,28 @@
+
+{
+    
+    "name": "elastic-email-subscribe-form",
+    "type": "wordpress-plugin",
+    
+    "config": {
+        "preferred-install": "dist",
+        "vendor-dir": "../elastic-email-shared/vendor"
+    },
+    
+  "repositories": [
+      {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+      },
+    
+          ],
+  
+  "require":{
+      "composer/installers": "~1.0",
+      "elastic-email/web-api-client": "*",
+      
+      
+  }
+        
+    
+}

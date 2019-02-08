@@ -1,0 +1,369 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"Project-Id-Version: Elastic Email Subscribe Form\n"
+"POT-Creation-Date: 2018-11-14 12:30+0100\n"
+"PO-Revision-Date: 2018-11-14 12:47+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: elasticemailsubscribe.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: pl_PL\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: class/eesf_admin.php:281
+msgid "Marketing"
+msgstr "Marketingowe"
+
+#: class/eesf_admin.php:282
+msgid "Transactional"
+msgstr "Transakcyjne"
+
+#: template/eesf_marketing.php:12
+msgid "Let us help you send better emails!"
+msgstr "Pozwól nam wysłać lepsze e-maile!"
+
+#: template/eesf_marketing.php:14
+msgid "If you are new to Elastic Email, feel free to visit our"
+msgstr ""
+"Jeśli jesteś nowym użytkownikiem Elastic Email, zapraszam do odwiedzenia "
+"naszej"
+
+#: template/eesf_marketing.php:14
+msgid "website"
+msgstr "strony"
+
+#: template/eesf_marketing.php:14
+msgid ""
+"and find out how our comprehensive set of tools will help you reach your "
+"goals or get premium email marketing tools at a fraction of what you're "
+"paying now!"
+msgstr ""
+"i przekonaj się, jak nasz wszechstronny zestaw narzędzi pomoże Ci osiągnąć "
+"Twoje cele i uzyskać premium narzędzia do marketingu e-mail za ułamek tego, "
+"co płacisz teraz!"
+
+#: template/eesf_marketing.php:17
+msgid ""
+"If you already use Elastic Email to send your emails, you can subscribe to "
+"our monthly updates to start receiving the latest email news, tips, best "
+"practices and more."
+msgstr ""
+"Jeśli korzystasz już z Elastic Email, możesz zasubskrybować nasze "
+"comiesięczny newsletter, aby otrzymywać najnowsze wiadomości e-mail, porady, "
+"sprawdzone metody i wiele innych."
+
+#: template/eesf_marketing.php:22
+msgid "Please enter your name"
+msgstr "Podaj swoje imię"
+
+#: template/eesf_marketing.php:24
+msgid "Please enter your name."
+msgstr "Podaj swoje imię."
+
+#: template/eesf_marketing.php:28
+msgid "Please enter your email"
+msgstr "Podaj swoje adres e-mail"
+
+#: template/eesf_marketing.php:29
+msgid "Please enter your email."
+msgstr "Podaj swoje adres e-mail."
+
+#: template/eesf_marketing.php:30
+msgid "This email is not valid."
+msgstr "Adres e-mail nie jest poprawny."
+
+#: template/eesf_marketing.php:44
+msgid "Thank you for subscribing to our newsletter!"
+msgstr "Dziękujemy za subskrypcję naszego newslettera!"
+
+#: template/eesf_marketing.php:45
+msgid ""
+"You will start receiving our email marketing newsletter, as soon as you "
+"confirm your subscription."
+msgstr ""
+"Zaczniesz otrzymywać nasz newsletter, gdy tylko potwierdzisz subskrypcję."
+
+#: template/eesf_marketing.php:51
+msgid "How we can help you?"
+msgstr "Jak możemy ci pomóc?"
+
+#: template/eesf_marketing.php:52
+msgid ""
+"If you would like to boost your email marketing campaigns or improve your "
+"email delivery, check out our helpful guides to get you started!"
+msgstr ""
+"Jeśli chcesz zwiększyć efektywność swoich kampanii email marketingowych lub "
+"poprawić dostarczanie poczty e-mail, zapoznaj się z naszymi przewodnikami!"
+
+#: template/eesf_marketing.php:55
+msgid "Guides and resources"
+msgstr "Poradniki i zasoby wiedzy"
+
+#: template/eesf_marketing.php:58
+msgid "Looking for code? Check our API"
+msgstr "Szukasz kodu? Sprawdź naszą dokumentację"
+
+#: template/eesf_marketing.php:61
+msgid "Want to talk with a live person? Contact us"
+msgstr "Chcesz porozmawiać z żywą osobą? Napisz"
+
+#: template/eesf_marketing.php:65
+msgid ""
+"Remember that in case of any other questions or feedback, you can always "
+"contact our friendly"
+msgstr ""
+"Pamiętaj, że w przypadku jakichkolwiek innych pytań lub opinii, zawsze "
+"możesz skontaktować się z naszym wsparciem technicznym"
+
+#: template/eesf_marketing.php:65
+msgid "Support Team."
+msgstr "Wsparcie techniczne."
+
+#: template/eesf_settingsadmin.php:13 template/eesf_settingswidget.php:7
+msgid "Settings saved."
+msgstr "Ustawienia zapisane."
+
+#: template/eesf_settingsadmin.php:23
+msgid "General Settings"
+msgstr "Ustawienia ogólne"
+
+#: template/eesf_settingsadmin.php:27
+msgid "Welcome to Elastic Email WordPress Plugin!"
+msgstr "Witamy we wtyczce Elastic Email Subscribe Form!"
+
+#: template/eesf_settingsadmin.php:27
+msgid ""
+"From now on, you can send your emails in the fastest and most reliable way!"
+msgstr ""
+"Od teraz możesz wysyłać swoje wiadomości e-mail w najszybszy i najbardziej "
+"niezawodny sposób!"
+
+#: template/eesf_settingsadmin.php:28
+msgid ""
+"Just one quick step and you will be ready to rock your subscribers' inbox."
+msgstr ""
+"Wystarczy jeden krok i będziesz gotowy, by podbijać skrzynkę odbiorczą "
+"swoich subskrybentów."
+
+#: template/eesf_settingsadmin.php:29
+msgid ""
+"Fill in the details about the main configuration of Elastic Email "
+"connections."
+msgstr "Skonfiguruj połączenie z interfejsem API Elastic Email."
+
+#: template/eesf_settingsadmin.php:42
+msgid "Connection Test:"
+msgstr "Test połączenia:"
+
+#: template/eesf_settingsadmin.php:44
+msgid "Connected"
+msgstr "Połączone"
+
+#: template/eesf_settingsadmin.php:44
+msgid "Connection error, check your API key. "
+msgstr "Błąd połączenia, sprawdź klucz API."
+
+#: template/eesf_settingsadmin.php:44
+msgid "Read more"
+msgstr "Przeczytaj więcej"
+
+#: template/eesf_settingsadmin.php:48
+msgid "Account status:"
+msgstr "Status konta:"
+
+#: template/eesf_settingsadmin.php:53
+msgid "Active"
+msgstr "Aktywne"
+
+#: template/eesf_settingsadmin.php:55 template/eesf_settingsadmin.php:58
+msgid "Please conect to Elastic Email API or complete the profile"
+msgstr "Połącz się z interfejsem API Elastic Email lub uzupełnij swój porofil"
+
+#: template/eesf_settingsadmin.php:55 template/eesf_settingsadmin.php:58
+msgid "Complete your profile"
+msgstr "Uzupełnij swój profil"
+
+#: template/eesf_settingsadmin.php:55 template/eesf_settingsadmin.php:58
+msgid " or connect to Elastic Email API to start using the plugin."
+msgstr ""
+" lub połącz się z Elastic Email API, aby rozpocząć korzystanie z wtyczki."
+
+#: template/eesf_settingsadmin.php:66
+msgid "Account daily limit:"
+msgstr "Dzienny limit konta:"
+
+#: template/eesf_settingsadmin.php:71
+msgid "No limits"
+msgstr "Bez limitu"
+
+#: template/eesf_settingsadmin.php:72
+msgid "Lucky you! Your account has no daily limits! Check out our other"
+msgstr "Szczęściarz! Twoje konto nie ma dziennych limitów! Sprawdź nasze inne"
+
+#: template/eesf_settingsadmin.php:72
+msgid "pricing plans"
+msgstr "plany cenowe"
+
+#: template/eesf_settingsadmin.php:72
+msgid "and discover unlimited possibilities of your account."
+msgstr "i odkryj nieograniczone możliwości swojego konta."
+
+#: template/eesf_settingsadmin.php:76
+msgid ""
+"Oops! It seems your limit is 5. Fill out your profile to get unlimited "
+"possibilities."
+msgstr ""
+"Ups! Wygląda na to, że twój limit wynosi 5. Wypełnij swój profil, aby "
+"uzyskać nieograniczone możliwości."
+
+#: template/eesf_settingsadmin.php:80
+msgid ""
+"Ups! It seems your your limit is 50. Fill out your profile to get unlimited "
+"possibilities."
+msgstr ""
+"Ups! Wygląda na to, że twój limit wynosi 50. Wypełnij swój profil, aby "
+"uzyskać nieograniczone możliwości."
+
+#: template/eesf_settingsadmin.php:84
+msgid "Your account is limited to 5,000 free emails per day. Check out our"
+msgstr ""
+"Twoje konto jest ograniczone do 5000 darmowych e-maili dziennie. Sprawdź "
+"nasze"
+
+#: template/eesf_settingsadmin.php:84
+msgid " pricing plans"
+msgstr "plany cenowe"
+
+#: template/eesf_settingsadmin.php:84
+msgid "and take your campaigns to the next level!"
+msgstr "i przenieś swoje kampanie na wyższy poziom!"
+
+#: template/eesf_settingsadmin.php:87
+msgid "Custom: "
+msgstr ""
+
+#: template/eesf_settingsadmin.php:88
+msgid "Your account has a custom limit: "
+msgstr ""
+
+#: template/eesf_settingsadmin.php:92 template/eesf_settingsadmin.php:97
+msgid ""
+"Seems that you might have some limits on your account. Please check out your "
+"account settings to unlock more options."
+msgstr ""
+
+#: template/eesf_settingsadmin.php:113
+msgid "Email Credits:"
+msgstr "Email kredyty:"
+
+#: template/eesf_settingsadmin.php:120
+msgid "Account doesn't have enough credits"
+msgstr "Konto nie ma wystarczającej liczby kredytów"
+
+#: template/eesf_settingsadmin.php:122
+msgid "Account can send e-mails but only without the attachments"
+msgstr "Konto może wysyłać wiadomości e-mail, ale tylko bez załączników"
+
+#: template/eesf_settingsadmin.php:124
+msgid "Daily Send Limit Exceeded"
+msgstr "Przekroczono dzienny limit wysyłki"
+
+#: template/eesf_settingsadmin.php:126
+msgid "Account is ready to send e-mails"
+msgstr "Konto jest gotowe do wysyłki"
+
+#: template/eesf_settingsadmin.php:128
+msgid "Check the account configuration"
+msgstr "Sprawdź konfigurację konta"
+
+#: template/eesf_settingsadmin.php:135
+msgid "Credit status:"
+msgstr "Status kredytów:"
+
+#: template/eesf_settingsadmin.php:145
+msgid "Do not have an account yet?"
+msgstr "Nie masz jeszcze konta?"
+
+#: template/eesf_settingsadmin.php:145
+msgid "Create your account now"
+msgstr "Utwórz konto teraz"
+
+#: template/eesf_settingsadmin.php:146
+msgid "Tell me more about it"
+msgstr "Powiedz mi więcej o tym"
+
+#: template/eesf_settingsadmin.php:150
+msgid "Want to use this plugin in a different language version?"
+msgstr "Chcesz użyć tej wtyczki w innej wersji językowej?"
+
+#: template/eesf_settingsadmin.php:150
+msgid "Let us know or help us translate it!"
+msgstr "Daj nam znać lub pomóż nam przetłumaczyć wtyczkę!"
+
+#: template/eesf_settingswidget.php:21
+msgid "Widget"
+msgstr "Widżet"
+
+#: template/eesf_settingswidget.php:39
+msgid "Name"
+msgstr "Nazwa"
+
+#: template/eesf_settingswidget.php:40
+msgid "Count"
+msgstr ""
+
+#: template/eesf_settingswidget.php:41
+msgid "Action"
+msgstr ""
+
+#: template/eesf_settingswidget.php:64
+msgid "All contacts go to AllContacts list. Create your first list."
+msgstr ""
+"Wszystkie kontakty będą dodawane do listy AllContacts. Utwórz swoją pierwszą "
+"niestandardową listę."
+
+#: template/eesf_settingswidget.php:68
+msgid "None"
+msgstr ""
+
+#: template/eesf_settingswidget.php:78
+msgid "Please enter list name."
+msgstr ""
+
+#: template/eesf_settingswidget.php:79
+msgid "Your list has been added."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Elastic Email Subscribe Form"
+msgstr "Elastic Email Subscribe Form"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/elastic-email-subscribe-form/"
+msgstr "https://wordpress.org/plugins/elastic-email-subscribe-form/"
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin add subscribe widget to your page and integration with Elastic "
+"Email account."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Elastic Email"
+msgstr "Elastic Email"
+
+#. Author URI of the plugin/theme
+msgid "https://elasticemail.com"
+msgstr "https://elasticemail.com"
