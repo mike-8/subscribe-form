@@ -1,28 +1,26 @@
 
 {
-    
-    "name": "elastic-email-subscribe-form",
+    "name": "t-m-eight/elastic-subscribe-form",
     "type": "wordpress-plugin",
-    
-    "config": {
-        "preferred-install": "dist",
-        "vendor-dir": "../elastic-email-shared/vendor"
-    },
+    "minimum-stability": "dev",
+  
     
   "repositories": [
       {
       "type": "composer",
-      "url": "https://wpackagist.org"
-      },
-    
+      "url": "https://wpackagist.org"      
+      }
           ],
   
-  "require":{
-      "composer/installers": "~1.0",
-      "elastic-email/web-api-client": "*",
-      
-      
-  }
-        
+  "require": {
+
+		"composer/installers": "~1.0",
+        "elastic-email/web-api-client": "*",
+
+
+
+	}
     
+    
+}
 }
