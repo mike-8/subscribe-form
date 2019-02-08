@@ -26,9 +26,6 @@ foreach ( $ri as $file ) {
 
     rmdir($dir);          
 }
-else
-{
-    return 0;
-}
+
 
 ?>
