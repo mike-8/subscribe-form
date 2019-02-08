@@ -3,7 +3,9 @@
     "name": "t-m-eight/elastic-email-subscribe-form",
     "type": "wordpress-plugin",
     "minimum-stability": "dev",
-  
+  "config":{
+      "vendor-dir": "../elastic-email-shared/vendor"
+  },
     
   "repositories": [
       {
@@ -14,7 +16,8 @@
   
   "require": {
 
-		"composer/installers": "~1.0"
+		"composer/installers": "~1.0",
+        "elastic-email/web-api-client": "*"
         
 
 
