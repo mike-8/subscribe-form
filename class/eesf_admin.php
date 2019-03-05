@@ -32,6 +32,12 @@ class eeadmin_subscribe
         add_action('admin_init', array($this, 'init_options'));
         $this->options = get_option('ee_options', $this->defaultOptions);
         add_action('delLists', array($this, 'delLists'), get_option('ee_delListName'));
+
+        $configuration = new \ElasticEmailClient\ApiConfiguration([
+            'apiUrl' => 'https://api.elasticemail.com/v2/',
+            'apiKey' => $this->options['ee_apikey']
+        ]);
+        update_option('api_conf',$configuration);
     }
 
     //Added admin menu
@@ -70,11 +76,12 @@ class eeadmin_subscribe
     public function show_settings()
     {
         $this->initAPI();
+        
         $configuration = get_option('api_conf');
-
+        
         try {
 
-
+            
             $accountAPI = new \ElasticEmailApi\Account($configuration);
 
             $error = null;
@@ -86,7 +93,7 @@ class eeadmin_subscribe
             $statusToSendEmail = array();
 
         }
-
+      
 
         $accountstatus = '';
         if (isset($account->statusnumber)) {
@@ -126,6 +133,10 @@ class eeadmin_subscribe
         if (isset($account->requiresemailcredits)) {
             $requiresemailcredits = $account->requiresemailcredits;
         }
+        
+        if (isset($account->apikey)) {
+            update_option('ee-apikey', $account->apikey);
+        }
 
         if (isset($account->issub)) {
             $issub = $account->issub;
@@ -136,7 +147,7 @@ class eeadmin_subscribe
                 $this->addToUserList();
             }
         }
-
+        
         require_once($this->theme_path . '/template/eesf_settingsadmin.php');
         return;
     }
@@ -163,7 +174,7 @@ class eeadmin_subscribe
             $statusToSendEmailAPI = new \ElasticEmailApi\Account($this->config);
             $error = null;
             $statusToSendEmail = $statusToSendEmailAPI->GetAccountAbilityToSendEmail();
-            update_option('elastic-email-to-send-status', $statusToSendEmail['data']);
+            update_option('elastic-email-to-send-status', $statusToSendEmail);
         } catch (Exception $ex) {
             $error = $ex->getMessage();
             $statusToSendEmail = array();
@@ -182,7 +193,7 @@ class eeadmin_subscribe
             $error = $e->getMessage();
             $list = array();
         }
-
+        
 
         require($this->theme_path . '/template/eesf_settingswidget.php');
         return;

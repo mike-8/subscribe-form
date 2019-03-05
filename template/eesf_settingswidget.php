@@ -43,7 +43,10 @@ if (isset($_GET['settings-updated'])):
 
             <?php
             if (isset($list)) {
+               
+                if(!is_string($list)){
                 if (!isset($list->data)) {
+                    
                     $listdata_array = array();
                     foreach ($list as $value => $key) {
                         array_push($listdata_array, array($key->listname, $key->publiclistid));
@@ -66,9 +69,14 @@ if (isset($_GET['settings-updated'])):
                     update_option('ee-listdata_json', '["",""]');
                 }
             } else {
-                // if lists is not exist
+                // no Conection on ElasticEmail
                 echo '<div class="row listist"><div class="col-12 col-md-10">' . __('None', 'elastic-email-subscribe-form') . '</div><div class="col-12 col-md-1 text-center">----</div><div class="col-12 col-md-1 text-center">----</div></div>';
-            } ?>
+            }} 
+            else{
+                 // list doesn't exsist
+                 echo '<div class="row listist"><div class="col-12 col-md-10">' . __('None', 'elastic-email-subscribe-form') . '</div><div class="col-12 col-md-1 text-center">----</div><div class="col-12 col-md-1 text-center">----</div></div>';
+            }
+            ?>
 
             <!-- New list input -->
             <form action="" method="post" id="eesf_addnewlist">
