@@ -13,7 +13,7 @@ class eeadmin_subscribe
     /**
      * Holds the values to be used in the fields callbacks
      */
-    private $defaultOptions = array('ee_enable' => 'no', 'ee_apikey' => null),
+    private $defaultOptions = array('ee_enable' => 'no', 'ee_apikey' => ''),
         $options,
         $config,
         $initAPI = false;
