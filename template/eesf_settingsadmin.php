@@ -17,7 +17,7 @@ if (isset($_GET['settings-updated'])):
     <div class="col-12 col-md-12 col-lg-7 ee_line">        
         <div class="ee_header">
             <div class="ee_logo">
-                <?php echo '<img src="' . esc_url(plugins_url('/assets/images/icon.png', dirname(__FILE__))) . '" > ' ?>
+                <?php echo '<img src="' . esc_url(plugins_url('/elastic-email-shared/assets/images/icon.png', dirname(__DIR__))) . '" > ' ?>
             </div>
             <div class="ee_pagetitle">
                 <h1 class="ee_h1"><?php _e('General Settings', 'elastic-email-subscribe-form') ?></h1>
