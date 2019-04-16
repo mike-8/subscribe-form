@@ -50,16 +50,10 @@ if (is_admin()) {
     function elasticemailsubscribe_uninstall() {
         
         /* delating shared files */
-        $dir=plugin_dir_path(__DIR__).'/elastic-email-sender';
-        if(get_option('elastic-email-sender-status')==false && !is_dir($dir))
+        $dir_sender=plugin_dir_path(__DIR__).'/elastic-email-sender';
+        if(get_option('elastic-email-sender-status')==false && !is_dir($dir_sender))
        {         
-    $dir =plugin_dir_path(__DIR__).'/elastic-email-shared/form'; /* Dummy folder - change for .'/elastic-email-shared/  */
-$di = new RecursiveDirectoryIterator($dir, FilesystemIterator::SKIP_DOTS);
-$ri = new RecursiveIteratorIterator($di, RecursiveIteratorIterator::CHILD_FIRST);
-foreach ( $ri as $file ) {
-    $file->isDir() ?  rmdir($file) : unlink($file);
-}
-    rmdir($dir);          
+            rrmdir(plugin_dir_path(__DIR__).'/elastic-email-shared', true);
        }
         
         delete_option('elastic-email-subscribe-status');
@@ -75,6 +69,19 @@ foreach ( $ri as $file ) {
 
     require_once 'class/eesf_admin.php';
     $ee_admin = new eeadmin_subscribe(__DIR__);
+
+function rrmdir($dir) {
+        if (is_dir($dir)) { 
+          $objects = scandir($dir); 
+          foreach ($objects as $object) { 
+            if ($object != "." && $object != "..") { 
+              if (filetype($dir."/".$object) == "dir") rrmdir($dir."/".$object); else unlink($dir."/".$object); 
+            } 
+          } 
+          reset($objects); 
+          rmdir($dir); 
+        } 
+     }  
 }
 
 //widget init
